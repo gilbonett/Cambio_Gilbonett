@@ -1,0 +1,67 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+header{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    height: 625px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.logo{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.tasas h2{
+font-size: 30px;
+line-height: 50px;
+color: rgb(155, 21, 21);
+}
+
+.tasas h3{
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.datos h1{
+    font-size: 36px;
+    line-height: 50px;
+    color: rgb(155, 21, 21);
+}
+
+.datos h2{
+    text-align: center;
+    line-height: 50px;
+}
+
+.datos h3{
+    text-align: center;
+    line-height: 50px;
+}
+
+footer{
+    display:flex ;
+    justify-content: space-around;
+}
+
+footer a{
+    padding-left: 25px;
+}
