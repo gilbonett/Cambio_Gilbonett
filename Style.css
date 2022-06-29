@@ -11,7 +11,7 @@ header{
 }
 
 body{
-    height: 625px;
+    height: 850px;
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
@@ -47,6 +47,10 @@ color: rgb(155, 21, 21);
     color: rgb(155, 21, 21);
 }
 
+.valorr{
+    font-size: 22px;
+}
+
 .datos h2{
     text-align: center;
     line-height: 50px;
@@ -64,4 +68,32 @@ footer{
 
 footer a{
     padding-left: 25px;
+}
+
+@media screen and (max-width: 700px){
+
+
+body{
+    height: 720px;
+}
+
+.logo {
+    display: none;
+}
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.principal{
+    flex-direction: column-reverse;
+}
+
+.tasas{
+     text-align: center;
+     padding-bottom: 30px;
+}
+
+
 }
